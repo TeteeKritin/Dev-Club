@@ -55,7 +55,7 @@ export default function footer() {
             999 Phuttamonthon 4 Road, <br/>Salaya , Nakhon Pathom 73170<br/> THAILAND<br/>
 </h1>
 <h1 className="text-right">
-  Copyright © {year}. Dev Club,<br/>in association with Faculty of Information and Communication Technology, Mahidol University. All rights reserved.<br/>Version 1.4.1</h1>
+  Copyright © {year}. Dev Club,<br/>in association with Faculty of Information and Communication Technology, Mahidol University. All rights reserved.<br/>Version 1.5.0</h1>
           </div>
         </div>
         </div>
