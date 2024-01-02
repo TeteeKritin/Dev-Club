@@ -1,8 +1,8 @@
 'use client'
 import {
     Link,
-    NumberInput,
     NumberInputField,
+    NumberInput
   } from '@chakra-ui/react'
 
   // import React, { useState } from "react";

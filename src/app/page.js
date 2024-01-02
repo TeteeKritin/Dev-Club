@@ -2,7 +2,6 @@
 import dynamic from "next/dynamic";
 import React from "react";
 
-import Head from 'next/head'
 
 import {
   Accordion,
@@ -26,7 +25,7 @@ const WhyUs = dynamic(() => import('../components/index_c/whyUs'))
 
 export default function Home() {
   return (
-    <>
+  <>
       <Header/>
 
       <div className='h-6'/>
@@ -97,25 +96,25 @@ export default function Home() {
 
       </div>
 
-    </>
-    
+
+</>
   )
 }
 
 const questionElement = [
   {
     question: 'What is this club',
-    answer: 
-    <div>
-      <p className="pb-12">This club is for those who want to learn about working in developer field, not only coding but also Design, art, and QA. </p>
-      {/* <a href='https://forms.gle/WEeVVa5fKjRgTQ2dA' className="w-fit rounded-full text-md font-medium hover:text-[#F5F5F7] hover:bg-[#1D1D1F] bg-[#F5F5F7] px-4 p-2" >
+    answer:
+      <div>
+        <p className="pb-12">This club is for those who want to learn about working in developer field, not only coding but also Design, art, and QA. </p>
+        {/* <a href='https://forms.gle/WEeVVa5fKjRgTQ2dA' className="w-fit rounded-full text-md font-medium hover:text-[#F5F5F7] hover:bg-[#1D1D1F] bg-[#F5F5F7] px-4 p-2" >
       <Icon className="mr-1" as={BsLink} />
         Apply Now
       </a> */}
 
-      {/* <p>As your senior, I recommend you to exempt because you can take more foreign languages available such as German(I, II), and Chinese(I, II).</p> */}
-      {/* <div className="p-4 flex flex-col items-center"><Image width={478} height={692} alt='English Exemption documents' src='/asset/forQuestion/English_exemption_doc.webp' loading="lazy"/></div> */}
-    </div>,
+        {/* <p>As your senior, I recommend you to exempt because you can take more foreign languages available such as German(I, II), and Chinese(I, II).</p> */}
+        {/* <div className="p-4 flex flex-col items-center"><Image width={478} height={692} alt='English Exemption documents' src='/asset/forQuestion/English_exemption_doc.webp' loading="lazy"/></div> */}
+      </div>,
     allowFile: 'hidden',//if allow '', if not 'hidden'
     fileRoot: '/downloads/project1_leak.pdf',
     filename: 'project1_leak.pdf',
@@ -126,12 +125,12 @@ const questionElement = [
   //   answer: <>
   //     <p>As a student of ICT you can loan the student loan (กยศ.) type 1.</p>
   //     <p className='pb-6'>You can learn more by clicking the link below</p>
-      
+
   //     <a href='https://sites.google.com/view/musl-mahidol2564/' className="w-fit rounded-full text-md font-medium hover:text-[#F5F5F7] hover:bg-[#1D1D1F] bg-[#F5F5F7] px-4 p-2" >
   //     <Icon className="mr-1" as={BsLink} />
   //       Link
   //     </a>
-      
+
   //   </>,
   //   allowFile: 'hidden',
   //   fileRoot: '',

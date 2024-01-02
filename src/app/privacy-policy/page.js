@@ -133,6 +133,7 @@ export default function privacy() {
       </div>
 
     </div>
+  </div>
 
     <Divider/>
 
@@ -248,7 +249,6 @@ export default function privacy() {
         <p>อีเมล poonyawatt.klu@student.mahidol.ac.th</p>
         <p>หมายเลขโทรศัพท์ 0881060571</p>
 
-      </div>
       </div>
     </>
   )
